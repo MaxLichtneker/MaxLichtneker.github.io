@@ -1,25 +1,54 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body{
-
+    font-family: "Inter", sans-serif;
 }
 
-mainPage{
+.taskBar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
 
+    margin-top: -25px;
+    padding-right: 50px;
 }
 
-taskbar{
+/*size of the animated gif on the top bar*/
+.nameSize{
+   width: 580px;
+   height: 159px;
+
+   margin-right: auto;
+   margin-right: 350px;
 }
 
-showreel{
+.taskbarItem{
+    background: none;
+    border: none;
+    padding-top: 20px;
 
+    justify-content: right;
+    color: #ED9E73;
+    font-size:1rem;
 }
 
-h1{
-
+.TaskBarDivider{
+    justify-content: baseline;
+    height: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
 }
 
-p{
+.taskBarSocials{
+    height: 25px;
+    width: 25px;
+
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+.ShowreelContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
 }

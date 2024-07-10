@@ -5,9 +5,11 @@ body{
 .taskBar{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: nowrap;
     align-items:center;
 
+
+    max-width: 100%;
     margin-top: -25px;
     padding-right: 50px;
 }
@@ -29,6 +31,10 @@ body{
     justify-content: right;
     color: #ED9E73;
     font-size:1rem;
+}
+
+.taskbarItem:hover{
+text-decoration: underline;
 }
 
 .TaskBarDivider{

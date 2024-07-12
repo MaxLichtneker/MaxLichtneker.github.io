@@ -8,7 +8,6 @@ body{
     flex-flow: nowrap;
     align-items:center;
 
-
     max-width: 100%;
     margin-top: -25px;
     padding-right: 50px;
@@ -57,4 +56,27 @@ text-decoration: underline;
     display: flex;
     justify-content: center;
     margin-top: -50px;
+}
+
+
+.AnimationsContainer{
+    width: 100%;
+    height: 100%;
+
+    margin-top: 75px;
+    order: 3;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: start;
+    justify-content: center;
+    gap: 25px;    
+}
+
+.AnimationItem{
+    width: 500px;
+    height: 275px;
+
+    background-color:darkgrey;
 }

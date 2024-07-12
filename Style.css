@@ -80,3 +80,13 @@ text-decoration: underline;
 
     background-color:darkgrey;
 }
+
+.IllustrationContainer{
+    width: 600px;
+    height: 800px;
+}
+
+.IllustrationItem{
+    width: 100%;
+    height: 100%;
+}

@@ -2,6 +2,10 @@ body{
     font-family: "Inter", sans-serif;
 }
 
+h1{
+
+}
+
 .taskBar{
     display: flex;
     flex-direction: row;
@@ -78,15 +82,32 @@ text-decoration: underline;
     width: 500px;
     height: 275px;
 
-    background-color:darkgrey;
+    background-color:#84848488 ;
 }
 
 .IllustrationContainer{
-    width: 600px;
-    height: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.IllustrationColumn{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.IllustrationRow{
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
 }
 
 .IllustrationItem{
     width: 100%;
     height: 100%;
+
+    object-fit: cover;
 }

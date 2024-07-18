@@ -84,6 +84,13 @@ text-decoration: underline;
     height: 275px;
 
     background-color:#84848488 ;
+
+    position: relative;
+    z-index: 2;
+}
+
+.AnimationItem:hover{
+    background-color:#848484bd ;
 }
 
 .IllustrationContainer{
@@ -106,9 +113,44 @@ text-decoration: underline;
     gap: 10px;
 }
 
-.IllustrationItem{
+.grid-Wrapper > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-Wrapper > div >.IllustrationItem{
     width: 100%;
     height: 100%;
-
     object-fit: cover;
+    border-radius: 5px;
+}
+
+.grid-Wrapper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:repeat(2, 1000px);  
+    grid-auto-rows: 100%;
+    grid-auto-flow:dense;
+}
+
+.grid-Wrapper .wide{
+    grid-column: span 2;
+}
+
+.grid-Wrapper .tall{
+    grid-row: span 2;
+}
+
+.grid-Wrapper .big{
+    grid-column: span 2;
+    grid-row: span 2;
+} 
+
+.IllustrationItem{
+    max-width: 100%;
+    height: auto;
+
+    vertical-align: middle;
+    display: inline-block;
 }

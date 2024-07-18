@@ -1,0 +1,13 @@
+.Animation-Grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: auto;
+    gap: 10px;
+}
+
+.Grid-Item{
+    max-width: 100%;
+    height: auto;
+}

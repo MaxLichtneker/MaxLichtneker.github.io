@@ -3,7 +3,7 @@ body{
 }
 
 p{
-    font-family: "Arvo";
+    font-family: "Montserrat","Inter","Arial", "Helvetica", "sans-serif";
     width: 40%;
     font-size: 1.5rem;
 }
@@ -13,6 +13,13 @@ h1{
     color: #ed864a;
     text-shadow: 2px 0 #ffffff, -2px 0 #ffffff, 0 2px #ffffff, 0 -2px #ffffff,
     1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, -1px 1px #ffffff;
+}
+
+h2{
+    font-family:"Arvo","Arial", "Helvetica", "sans-serif";
+
+    font-size: 3rem;
+    color: #ed864a;
 }
 
 .taskBar{

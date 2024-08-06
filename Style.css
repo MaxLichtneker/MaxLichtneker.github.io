@@ -29,12 +29,11 @@ h2{
     flex-direction: row;
     flex-flow: wrap;
     align-items:center;
-    justify-content: center;
+    justify-content: start;
 
     max-width: 95%;
     margin-inline: auto;
     margin-top: -25px;
-    padding-right: 50px;
 }
 
 /*size of the animated gif on the top bar*/
@@ -42,7 +41,7 @@ h2{
    min-width: 380px;
    max-height: 159px;
 
-   margin-inline: auto;
+   margin-right: auto;
 }
 
 .taskbarItem{
@@ -50,7 +49,6 @@ h2{
     border: none;
     padding-top: 20px;
 
-    justify-content: right;
     color: #ED9E73;
     font-size: 1.5vh;
 }
@@ -155,8 +153,6 @@ a:visited{
         min-width: 500px;
         min-height: 275px;
     }
-    
-    
 
     p{
         font-size: 1.5rem;

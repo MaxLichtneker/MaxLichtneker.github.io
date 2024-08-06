@@ -4,7 +4,7 @@ body{
 
 p{
     font-family: "Montserrat","Inter","Arial", "Helvetica", "sans-serif";
-    width: 40%;
+   max-width:40%;
     font-size: 1.5rem;
 }
 
@@ -25,21 +25,23 @@ h2{
 .taskBar{
     display: flex;
     flex-direction: row;
-    flex-flow: nowrap;
+    flex-flow: wrap;
     align-items:center;
+    justify-content: center;
 
-    max-width: 100%;
+    max-width: 95%;
+    margin-inline: auto;
     margin-top: -25px;
     padding-right: 50px;
 }
 
 /*size of the animated gif on the top bar*/
 .nameSize{
-   width: 580px;
-   height: 159px;
+   min-width: 580px;
+   max-height: 159px;
 
-   margin-right: auto;
-   margin-right: 350px;
+   margin-inline: auto;
+   margin-right: 20rem;
 }
 
 .taskbarItem{
@@ -132,13 +134,20 @@ a:visited{
 }
 
 .AnimationItem{
-    width: 500px;
-    height: 275px;
+    min-width: 300px;
+    height: 175px;
 
     background-color:#84848488 ;
 
     position: relative;
     z-index: 2;
+}
+
+@media (min-width: 760px) {
+    .AnimationItem{
+        min-width: 500px;
+        min-height: 275px;
+    }    
 }
 
 .AnimationItem:hover{

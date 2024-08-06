@@ -114,6 +114,7 @@ a:visited{
 .Project-Dropdown:hover .Project-Dropdown-Content{display: block;}
 
 .ShowreelContainer{
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     margin-top: -50px;

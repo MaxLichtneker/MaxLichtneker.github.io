@@ -5,12 +5,12 @@ body{
 
 p{
     font-family: "Montserrat","Inter","Arial", "Helvetica", "sans-serif";
-   max-width:40%;
-    font-size: 1.5rem;
+    max-width:40%;
+    font-size: 2vh;
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 3 rem;
     color: #ed864a;
     text-shadow: 2px 0 #ffffff, -2px 0 #ffffff, 0 2px #ffffff, 0 -2px #ffffff,
     1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, -1px 1px #ffffff;
@@ -52,7 +52,7 @@ h2{
 
     justify-content: right;
     color: #ED9E73;
-    font-size:1rem;
+    font-size: 1.5vh;
 }
 
 .taskbarItem:hover{
@@ -120,8 +120,8 @@ a:visited{
 }
 
 .AnimationsContainer{
-    width: 100%;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
 
     margin-top: 75px;
     order: 3;
@@ -162,8 +162,8 @@ a:visited{
 }
 
 .grid-Wrapper > div >.IllustrationItem{
-    width: 100%;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
 
     object-fit:cover;
     border-radius: 5px;

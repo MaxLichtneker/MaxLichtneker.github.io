@@ -6,7 +6,7 @@ body{
 p{
     font-family: "Montserrat","Inter","Arial", "Helvetica", "sans-serif";
     max-width:40%;
-    font-size: 2vh;
+    font-size: 1rem;
 }
 
 h1{
@@ -42,7 +42,7 @@ h2{
    max-height: 159px;
 
    margin-inline: auto;
-   margin-right: 20rem;
+   margin-right: none;
 }
 
 .taskbarItem{
@@ -146,10 +146,23 @@ a:visited{
 }
 
 @media (min-width: 760px) {
+
+    .taskBar{
+        flex-flow: nowrap;
+    }
+
     .AnimationItem{
         min-width: 500px;
         min-height: 275px;
-    }    
+    }
+    
+    .nameSize{
+        margin-right: 20rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
 }
 
 .AnimationItem:hover{

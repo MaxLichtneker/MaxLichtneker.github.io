@@ -10,7 +10,7 @@ p{
 }
 
 h1{
-    font-size: 3 rem;
+    font-size: 3rem;
     color: #ed864a;
     text-shadow: 2px 0 #ffffff, -2px 0 #ffffff, 0 2px #ffffff, 0 -2px #ffffff,
     1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, -1px 1px #ffffff;
@@ -19,7 +19,8 @@ h1{
 h2{
     font-family:"Arvo","Arial", "Helvetica", "sans-serif";
 
-    font-size: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
     color: #ed864a;
 }
 
@@ -38,7 +39,7 @@ h2{
 
 /*size of the animated gif on the top bar*/
 .nameSize{
-   min-width: 580px;
+   min-width: 380px;
    max-height: 159px;
 
    margin-inline: auto;
@@ -162,6 +163,10 @@ a:visited{
 
     p{
         font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 3rem;
     }
 }
 

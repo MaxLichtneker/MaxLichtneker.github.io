@@ -29,7 +29,7 @@ h2{
     flex-direction: row;
     flex-flow: wrap;
     align-items:center;
-    justify-content: start;
+    justify-content: center;
 
     max-width: 95%;
     margin-inline: auto;

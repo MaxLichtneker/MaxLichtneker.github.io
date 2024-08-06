@@ -50,7 +50,7 @@ h2{
     padding-top: 20px;
 
     color: #ED9E73;
-    font-size: 1.5vh;
+    font-size: 1.5rem;
 }
 
 .taskbarItem:hover{
@@ -152,6 +152,10 @@ a:visited{
     .AnimationItem{
         min-width: 500px;
         min-height: 275px;
+    }
+
+    .taskbarItem{
+        font-size: 1rem;
     }
 
     p{

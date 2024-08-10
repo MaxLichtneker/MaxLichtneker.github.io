@@ -12,3 +12,33 @@
 .grid-Item{
     height: auto;
 }
+
+.outer-Grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Experience-Grid{
+    max-width: 100%;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+
+    flex-basis: auto;
+
+    gap: 25px;
+}
+
+.Grid-Item{
+    max-width: 60%;
+    height: auto;
+}
+
+p2{
+    font-size: .8rem;
+}
+
+p3{
+    font-size: 1rem;
+}

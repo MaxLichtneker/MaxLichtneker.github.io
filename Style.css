@@ -31,15 +31,23 @@ h2{
     align-items:center;
     justify-content: center;
 
-    max-width: 100%;
+    max-width: 91%;
     margin-inline: auto;
     margin-top: -25px;
 
     z-index: 3;
     top: 0px;
-    position: sticky;
+    position:relative;
 
     background-color: #ffff;
+}
+
+.socialsBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 25px;
 }
 
 /*size of the animated gif on the top bar*/
@@ -72,8 +80,8 @@ text-decoration: underline;
 }
 
 .taskBarSocials{
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
 
     padding-top: 20px;
     padding-right: 5px;
@@ -153,6 +161,7 @@ a:visited{
 
     .taskBar{
         flex-flow: nowrap;
+        position: sticky;
     }
 
     .AnimationItem{

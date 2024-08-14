@@ -168,9 +168,21 @@ a:visited{
 }
 
 @media (max-width: 1250px) {
+
     .taskBar{
         flex-flow: wrap;
         position: relative;
+    }
+    
+    .taskbarItem{
+        font-size:  2rem;
+    }
+
+    .nameSize{
+        min-width: 480px;
+        max-height: 259px;
+     
+        margin-right: auto;
     }
 
     .divider{
@@ -179,9 +191,21 @@ a:visited{
 }
 
 @media (max-width: 850px) {
+
     .taskBar{
         flex-flow: wrap;
         position: relative;
+    }
+
+    .taskbarItem{
+        font-size: 2rem;
+    }
+
+    .nameSize{
+        min-width: 480px;
+        max-height: 259px;
+     
+        margin-right: auto;
     }
 
     .divider{

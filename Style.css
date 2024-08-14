@@ -157,8 +157,8 @@ a:visited{
 }
 
 .AnimationItem{
-    min-width: 350px;
-    height: 175px;
+    min-width: 500px;
+    height: 275px;
 
     background-color:#84848488 ;
     border-color: #ffffff;
@@ -178,20 +178,19 @@ a:visited{
     }
 }
 
-
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .taskBar{
         flex-flow: wrap;
         position: relative;
     }
 
     .divider{
-        max-width: 500px;
+        max-width: 400px;
     }
 
     .AnimationItem{
-        min-width: 500px;
-        min-height: 275px;
+        min-width: 350px;
+        height: 175px;
     }
 
     .taskbarItem{

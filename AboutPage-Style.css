@@ -2,14 +2,14 @@
     display: flex;
     max-width: 100%;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    
+    gap: 100px;
     flex-grow: auto;
-    gap: 20px;
-
     padding-top: 50px;
-
 }
 
 .grid-Item{
@@ -31,9 +31,10 @@
     flex-wrap: wrap;
 
     flex-basis: auto;
-    align-items: center;
 
     margin-inline: auto;
+
+    align-items: baseline;
 
     gap: 25px;
 }
@@ -51,10 +52,26 @@ p3{
     font-size: 1rem;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 1250px) {
+    .Experience-Grid{
+        max-width: 80%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+
+        flex-basis: auto;
+        align-items: center;
+
+        margin-inline: auto;
+
+        gap: 25px;
+    }
+}
+
+@media (max-width: 800px) {
 
     .Grid-Item{
-        max-width: 50%;
+        max-width: 80%;
         height: auto;
     }
     
@@ -62,14 +79,11 @@ p3{
         display: flex;
         max-width: 100%;
         flex-wrap: wrap;
-        flex-direction: row;
-
+        flex-direction: column;
         justify-content: center;
-        align-items: left;
-        
-        gap: 100px;
+        align-items: center;
         flex-grow: auto;
-        padding-top: 50px;
+        gap: 20px;
     }
 
     .Experience-Grid{
@@ -77,12 +91,11 @@ p3{
         display: flex;
         flex-direction:column;
         flex-wrap: wrap;
-    
-        flex-basis: auto;
-    
-        margin-inline: auto;
 
-        align-items: baseline;
+        flex-basis: auto;
+        align-items: center;
+
+        margin-inline: auto;
 
         gap: 25px;
     }

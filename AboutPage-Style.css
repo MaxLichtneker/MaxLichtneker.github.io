@@ -50,6 +50,12 @@ p3{
 }
 
 @media (min-width: 800px) {
+
+    .Grid-Item{
+        max-width: 50%;
+        height: auto;
+    }
+    
     .About-grid{
         display: flex;
         max-width: 100%;

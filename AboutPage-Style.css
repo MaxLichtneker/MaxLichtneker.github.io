@@ -33,14 +33,15 @@
     flex-basis: auto;
 
     margin-inline: auto;
-
+    margin-left: 300px;
     align-items: baseline;
 
     gap: 25px;
+    margin-bottom: 50px;
 }
 
 .Grid-Item{
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
 }
 

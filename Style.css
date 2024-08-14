@@ -160,6 +160,7 @@ a:visited{
     height: 175px;
 
     background-color:#84848488 ;
+    border-color: #ffffff;
 
     position: relative;
     z-index: 2;
@@ -193,6 +194,7 @@ a:visited{
         font-size: 3rem;
     }
 }
+
 .AnimationItem:hover{
     background-color:#848484bd ;
 }

@@ -27,7 +27,7 @@ h2{
 .taskBar{
     display: flex;
     flex-direction: row;
-    flex-flow: wrap;
+    flex-flow: nowrap;
     align-items:center;
     justify-content: center;
 
@@ -37,7 +37,7 @@ h2{
 
     z-index: 3;
     top: 0px;
-    position:relative;
+    position:sticky;
 
     background-color: #ffff;
 }
@@ -55,7 +55,7 @@ h2{
 }
 
 .divider{
-    max-width: 500px;
+    max-width: fit-content;
 }
 
 /*size of the animated gif on the top bar*/
@@ -167,15 +167,26 @@ a:visited{
     z-index: 2;
 }
 
-@media (min-width: 800px) {
-
-    .divider{
-        max-width: fit-content;
+@media (max-width: 1250px) {
+    .taskBar{
+        flex-flow: wrap;
+        position: relative;
     }
 
+    .divider{
+        max-width: 800px;
+    }
+}
+
+
+@media (max-width: 800px) {
     .taskBar{
-        flex-flow: nowrap;
-        position: sticky;
+        flex-flow: wrap;
+        position: relative;
+    }
+
+    .divider{
+        max-width: 500px;
     }
 
     .AnimationItem{

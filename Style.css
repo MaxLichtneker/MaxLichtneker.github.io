@@ -142,8 +142,8 @@ a:visited{
 }
 
 .AnimationsContainer{
-    min-width: 100%;
-    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 
     margin-top: 75px;
     order: 3;
@@ -170,7 +170,6 @@ a:visited{
 @media (max-width: 1250px) {
 
     .Project-Dropdown:hover .Project-Dropdown-Content{display: none;}
-
 
     p{
         max-width: 85%;
@@ -203,7 +202,7 @@ a:visited{
 }
 
 @media (max-width: 850px) {
-    
+
     .Project-Dropdown:hover .Project-Dropdown-Content{display: none;}
 
     .taskBar{
@@ -216,7 +215,7 @@ a:visited{
     }
 
     .nameSize{
-        min-width: 480px;
+        min-width: 380px;
         max-height: 259px;
      
         margin-right: auto;

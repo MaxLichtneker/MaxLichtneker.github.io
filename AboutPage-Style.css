@@ -44,6 +44,10 @@
     height: auto;
 }
 
+p{
+    font-size: 1.5rem;
+}
+
 p2{
     font-size: .8rem;
 }
@@ -69,11 +73,7 @@ p3{
 }
 
 @media (max-width: 800px) {
-    .Grid-Item{
-        max-width: 80%;
-        height: auto;
-    }
-    
+
     .About-grid{
         display: flex;
         max-width: 100%;

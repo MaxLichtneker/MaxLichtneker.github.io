@@ -46,8 +46,16 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
     gap: 25px;
+}
+
+.socials-Divider{
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+.divider{
+    max-width: 500px;
 }
 
 /*size of the animated gif on the top bar*/
@@ -80,11 +88,11 @@ text-decoration: underline;
 }
 
 .taskBarSocials{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
 
     padding-top: 20px;
-    padding-right: 5px;
+    margin-bottom: 20px;
 }
 
 .Project-Dropdown{
@@ -157,7 +165,11 @@ a:visited{
     z-index: 2;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 800px) {
+
+    .divider{
+        max-width: fit-content;
+    }
 
     .taskBar{
         flex-flow: nowrap;
@@ -181,7 +193,6 @@ a:visited{
         font-size: 3rem;
     }
 }
-
 .AnimationItem:hover{
     background-color:#848484bd ;
 }

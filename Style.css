@@ -169,6 +169,14 @@ a:visited{
 
 @media (max-width: 1250px) {
 
+    p{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 3.5rem;
+    }
+
     .taskBar{
         flex-flow: wrap;
         position: relative;

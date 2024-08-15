@@ -80,7 +80,6 @@ text-decoration: underline;
 }
 
 .TaskBarDivider{
-    justify-content: baseline;
     height: 5px;
     padding-left: 15px;
     padding-right: 15px;
@@ -212,7 +211,7 @@ a:visited{
     }
 
     .taskbarItem{
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .nameSize{
@@ -232,7 +231,14 @@ a:visited{
     }
 
     .taskbarItem{
-        font-size: 1rem;
+        font-size: .8rem;
+    }
+
+    .TaskBarDivider{
+        height: 2px;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 20px;
     }
 
     p{

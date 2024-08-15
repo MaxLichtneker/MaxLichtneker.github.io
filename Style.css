@@ -212,7 +212,7 @@ a:visited{
 
     .taskbarItem{
         font-size: 1rem;
-        padding-top: 10px;
+        padding-top: 5px;
     }
 
     .nameSize{
@@ -233,14 +233,14 @@ a:visited{
     }
 
     .taskbarItem{
-        font-size: .8rem;
+        font-size: .80rem;
     }
 
     .TaskBarDivider{
         height: 2px;
-        padding-left: 2px;
-        padding-right: 2px;
-        padding-top: 10px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 5px;
     }
 
     p{

@@ -212,10 +212,12 @@ a:visited{
 
     .taskbarItem{
         font-size: 1rem;
+        padding-top: 10px;
     }
 
     .nameSize{
-        min-width: 380px;
+        margin-top: 10px;
+        min-width: 310px;
         max-height: 259px;
      
         margin-right: auto;
@@ -226,7 +228,7 @@ a:visited{
     }
 
     .AnimationItem{
-        min-width: 350px;
+        min-width: 320px;
         height: 175px;
     }
 
@@ -238,7 +240,7 @@ a:visited{
         height: 2px;
         padding-left: 2px;
         padding-right: 2px;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     p{
